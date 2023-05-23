@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1431017378402
+    "lastModifiedOn": 1684872114968
   },
   "tags": [
     "creator_admin"
@@ -104,9 +104,10 @@
       {"name":"Intl_Charge","type":"double"},
       {"name":"Total_Charge","type":"double"},
       {"name":"CustServ_Calls","type":"bigint"},
-      {"name":"Churn","type":"string"}
+      {"name":"Churn","type":"string"},
+      {"name":"cluster_labels","type":"string","comment":"","maxLength":1000}
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
